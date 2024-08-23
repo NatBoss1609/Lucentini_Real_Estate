@@ -145,3 +145,24 @@ footer {
     font-size: 0.5em;
     margin-left: 10px;
 }
+
+
+/* RESPONSIVE ACCUEIL */
+@media (max-width : 769px){
+    .image_livre{
+        width: 150px;
+    }
+}
+
+@media (max-width : 426px){
+    .txt_princ{
+        font-size: 0.7em;
+    }
+
+    .image_livre{
+        width: 100px;
+    }
+    .par_svg{
+        font-size: 0.6em;
+    }
+}
